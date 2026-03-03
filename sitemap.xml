@@ -1,53 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bright Clean Miami</title>
 
-<url>
-<loc>https://brightcleanmiami.com/</loc>
-<priority>1.0</priority>
-</url>
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="/assets/css/style.css">
 
-<url>
-<loc>https://brightcleanmiami.com/house-cleaning-miami.html</loc>
-</url>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZP5F1MCJRZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZP5F1MCJRZ');
+  </script>
+</head>
 
-<url>
-<loc>https://brightcleanmiami.com/deep-cleaning-miami.html</loc>
-</url>
+<body>
 
-<url>
-<loc>https://brightcleanmiami.com/move-out-cleaning-miami.html</loc>
-</url>
+  <div id="header"></div>
 
-<url>
-<loc>https://brightcleanmiami.com/pricing.html</loc>
-</url>
+  <main>
+  </main>
 
-<url>
-<loc>https://brightcleanmiami.com/blog.html</loc>
-</url>
+  <div id="footer"></div>
 
-<url>
-<loc>https://brightcleanmiami.com/service-areas-miami.html</loc>
-</url>
+  <script src="/assets/js/main.js"></script>
 
-<url>
-<loc>https://brightcleanmiami.com/how-often-should-you-clean-your-home-in-miami.html</loc>
-</url>
-
-<url>
-<loc>https://brightcleanmiami.com/deep-cleaning-vs-regular-cleaning-miami.html</loc>
-</url>
-
-<url>
-<loc>https://brightcleanmiami.com/mold-prevention-tips-miami-homes.html</loc>
-</url>
-
-<url>
-<loc>https://brightcleanmiami.com/apartment-cleaning-checklist-miami.html</loc>
-</url>
-
-<url>
-<loc>https://brightcleanmiami.com/is-professional-cleaning-worth-it-in-miami.html</loc>
-</url>
-
-</urlset>
+</body>
+</html>
