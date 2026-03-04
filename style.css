@@ -655,6 +655,45 @@ section.show{
 opacity:1;
 transform:translateY(0);
 }
-  }
+/* QUOTE CALCULATOR */
 
+.quote-section{
+padding:60px 20px;
+background:#f6f8fb;
+text-align:center;
+}
+
+.quote-box{
+max-width:500px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+}
+
+.quote-box label{
+display:block;
+margin-top:15px;
+font-weight:600;
+}
+
+.quote-box select{
+width:100%;
+padding:10px;
+margin-top:8px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+.quote-box button{
+margin-top:20px;
+width:100%;
+}
+
+#quoteResult{
+margin-top:20px;
+color:#0a84ff;
+  }
+    }
   
