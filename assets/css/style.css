@@ -1,1 +1,197 @@
+/* GLOBAL */
 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+background:#f4f7fb;
+color:#1a1a1a;
+line-height:1.6;
+}
+
+/* CONTAINER */
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+/* HEADER */
+
+header{
+background:#0c1c2c;
+color:white;
+padding:20px 0;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+header .container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:24px;
+font-weight:700;
+letter-spacing:1px;
+}
+
+/* NAVIGATION */
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#3fb2ff;
+}
+
+/* HERO SECTION */
+
+.hero{
+padding:80px 20px;
+text-align:center;
+background:white;
+}
+
+.hero h1{
+font-size:36px;
+margin-bottom:20px;
+color:#0c1c2c;
+}
+
+.hero p{
+font-size:18px;
+color:#555;
+max-width:600px;
+margin:auto;
+}
+
+/* BUTTON */
+
+.button{
+display:inline-block;
+margin-top:25px;
+background:#1e73be;
+color:white;
+padding:14px 28px;
+border-radius:6px;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+box-shadow:0 4px 14px rgba(0,0,0,0.15);
+}
+
+.button:hover{
+background:#155a96;
+transform:translateY(-2px);
+}
+
+/* SECTIONS */
+
+section{
+padding:70px 20px;
+}
+
+h2{
+margin-bottom:25px;
+color:#0c1c2c;
+font-size:26px;
+}
+
+/* CARD GRID */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:8px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 12px 28px rgba(0,0,0,0.15);
+}
+
+/* LIST */
+
+ul{
+margin-left:18px;
+margin-top:10px;
+}
+
+li{
+margin-bottom:8px;
+}
+
+/* CTA */
+
+.cta{
+background:#1e73be;
+color:white;
+text-align:center;
+padding:70px 20px;
+}
+
+.cta h2{
+color:white;
+}
+
+/* FOOTER */
+
+footer{
+background:#0c1c2c;
+color:white;
+padding:50px 20px;
+margin-top:60px;
+}
+
+footer .grid{
+margin-top:20px;
+}
+
+footer a{
+color:#3fb2ff;
+text-decoration:none;
+}
+
+footer a:hover{
+text-decoration:underline;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+header .container{
+flex-direction:column;
+gap:15px;
+}
+
+nav a{
+margin:0 10px;
+}
+
+.hero h1{
+font-size:28px;
+}
+
+}
