@@ -1,33 +1,106 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bright Clean Miami</title>
+<?xml version="1.0" encoding="UTF-8"?>
 
-  <!-- Main Styles -->
-  <link rel="stylesheet" href="/assets/css/style.css">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZP5F1MCJRZ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-ZP5F1MCJRZ');
-  </script>
-</head>
+<!-- Home -->
+<url>
+  <loc>https://brightcleanmiami.vercel.app/</loc>
+  <lastmod>2026-03-04</lastmod>
+  <priority>1.00</priority>
+</url>
 
-<body>
+<!-- Core Pages -->
+<url>
+  <loc>https://brightcleanmiami.vercel.app/services.html</loc>
+  <priority>0.90</priority>
+</url>
 
-  <div id="header"></div>
+<url>
+  <loc>https://brightcleanmiami.vercel.app/pricing.html</loc>
+  <priority>0.85</priority>
+</url>
 
-  <main>
-  </main>
+<url>
+  <loc>https://brightcleanmiami.vercel.app/locations.html</loc>
+  <priority>0.85</priority>
+</url>
 
-  <div id="footer"></div>
+<url>
+  <loc>https://brightcleanmiami.vercel.app/service-areas-miami.html</loc>
+  <priority>0.85</priority>
+</url>
 
-  <script src="/assets/js/main.js"></script>
+<url>
+  <loc>https://brightcleanmiami.vercel.app/contact.html</loc>
+  <priority>0.80</priority>
+</url>
 
-</body>
-</html>
+<url>
+  <loc>https://brightcleanmiami.vercel.app/privacy-policy.html</loc>
+  <priority>0.50</priority>
+</url>
+
+<!-- Service Pages -->
+<url>
+  <loc>https://brightcleanmiami.vercel.app/deep-cleaning-miami.html</loc>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>https://brightcleanmiami.vercel.app/move-out-cleaning-miami.html</loc>
+  <priority>0.90</priority>
+</url>
+
+<!-- Local Pages -->
+<url>
+  <loc>https://brightcleanmiami.vercel.app/house-cleaning-brickell.html</loc>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://brightcleanmiami.vercel.app/house-cleaning-coconut-grove.html</loc>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://brightcleanmiami.vercel.app/house-cleaning-kendall.html</loc>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://brightcleanmiami.vercel.app/house-cleaning-miami-beach.html</loc>
+  <priority>0.80</priority>
+</url>
+
+<!-- Blog / Articles -->
+<url>
+  <loc>https://brightcleanmiami.vercel.app/blog.html</loc>
+  <priority>0.75</priority>
+</url>
+
+<url>
+  <loc>https://brightcleanmiami.vercel.app/apartment-cleaning-checklist-miami.html</loc>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://brightcleanmiami.vercel.app/deep-cleaning-vs-regular-cleaning-miami.html</loc>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://brightcleanmiami.vercel.app/how-often-should-you-clean-your-home-in-miami.html</loc>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://brightcleanmiami.vercel.app/is-professional-cleaning-worth-it-in-miami.html</loc>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://brightcleanmiami.vercel.app/mold-prevention-tips-miami-homes.html</loc>
+  <priority>0.70</priority>
+</url>
+
+</urlset>
