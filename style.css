@@ -485,5 +485,26 @@ box-shadow:0 10px 30px rgba(0,0,0,0.15);
 .main-nav a{
 margin-bottom:10px;
 }
+/* FLOATING CALL BUTTON */
 
+.call-button{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#0a84ff;
+color:white;
+padding:14px 20px;
+border-radius:50px;
+font-weight:600;
+text-decoration:none;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+z-index:999;
+transition:0.3s;
+}
+
+.call-button:hover{
+background:#006edc;
+transform:translateY(-3px);
   }
+   }
+  
