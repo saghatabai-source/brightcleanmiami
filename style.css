@@ -605,6 +605,23 @@ font-size:22px;
 margin-bottom:10px;
 display:block;
 }
- }
+/* SERVICE ICONS */
 
+.service-icon{
+font-size:40px;
+margin-bottom:15px;
+  }
+  .card{
+background:#fff;
+padding:25px;
+border-radius:10px;
+box-shadow:0 6px 20px rgba(0,0,0,0.08);
+transition:all .3s ease;
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 12px 30px rgba(0,0,0,0.15);
+  }
+   }
   
