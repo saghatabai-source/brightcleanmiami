@@ -360,4 +360,92 @@ background:none;
 border:none;
 }
 
+/* ===== EXTRA SECTIONS ===== */
+
+
+/* HERO BUTTONS */
+
+.hero-buttons{
+display:flex;
+justify-content:center;
+gap:15px;
+margin-top:25px;
+flex-wrap:wrap;
+}
+
+.button-outline{
+background:transparent;
+border:2px solid white;
+color:white;
+}
+
+
+
+/* REVIEWS */
+
+.reviews-section{
+background:#f4f7fb;
+padding:70px 0;
+}
+
+.reviews-section .card{
+text-align:center;
+}
+
+
+
+/* MAP */
+
+.map-section{
+padding:70px 0;
+text-align:center;
+}
+
+.map-container{
+margin-top:25px;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+
+
+/* SERVICE AREAS LINKS */
+
+.content-section ul{
+margin-top:15px;
+padding-left:20px;
+}
+
+.content-section li{
+margin-bottom:8px;
+}
+
+.content-section a{
+color:#0077ff;
+text-decoration:none;
+}
+
+.content-section a:hover{
+text-decoration:underline;
+}
+
+
+
+/* CTA SECTION */
+
+.cta{
+background:#2c73b8;
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+.cta h2{
+margin-bottom:15px;
+}
+
+.cta p{
+margin-bottom:20px;
   }
+   }  
