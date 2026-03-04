@@ -455,5 +455,35 @@ position:sticky;
 top:0;
 z-index:1000;
 }
- }
-  
+/* MOBILE MENU */
+
+.menu-toggle{
+display:none;
+font-size:24px;
+background:none;
+border:none;
+cursor:pointer;
+}
+
+@media(max-width:768px){
+
+.menu-toggle{
+display:block;
+}
+
+.main-nav{
+display:none;
+flex-direction:column;
+background:white;
+position:absolute;
+right:20px;
+top:70px;
+padding:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.main-nav a{
+margin-bottom:10px;
+}
+
+  }
