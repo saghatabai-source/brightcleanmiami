@@ -2,156 +2,186 @@
 <html lang="en">
 <head>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Contact Us | Bright Clean Miami</title>
-  <meta name="description" content="Contact Bright Clean Miami for professional house and apartment cleaning services in Miami, FL. Request your free quote today.">
+<title>Contact Bright Clean Miami | Free Cleaning Quote</title>
+<meta name="description" content="Request a free house cleaning quote in Miami, FL. Bright Clean Miami provides professional residential cleaning services across Miami neighborhoods.">
 
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://brightcleanmiami.vercel.app/contact.html">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://brightcleanmiami.vercel.app/contact.html">
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Contact Bright Clean Miami">
-  <meta property="og:description" content="Request a free cleaning quote in Miami, FL. Professional and reliable service.">
-  <meta property="og:type" content="website">
+<meta property="og:title" content="Contact Bright Clean Miami">
+<meta property="og:description" content="Get your free residential cleaning quote in Miami today.">
+<meta property="og:type" content="website">
 
-  <link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/style.css">
 
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZP5F1MCJRZ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-ZP5F1MCJRZ');
-  </script>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZP5F1MCJRZ"></script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());
+gtag('config','G-ZP5F1MCJRZ');
+</script>
 
 </head>
 
 <body>
 
 <header class="site-header">
-  <div class="container header-container">
-    <a href="/" class="logo">Bright Clean Miami</a>
+<div class="container header-container">
+<a href="/" class="logo">Bright Clean Miami</a>
 
-    <nav class="main-nav">
-      <a href="/">Home</a>
-      <a href="/services.html">Services</a>
-      <a href="/locations.html">Locations</a>
-      <a href="/about.html">About</a>
-      <a href="/blog.html">Blog</a>
-      <a href="/contact.html" class="btn-nav">Get Quote</a>
-    </nav>
+<nav class="main-nav">
+<a href="/">Home</a>
+<a href="/services.html">Services</a>
+<a href="/locations.html">Locations</a>
+<a href="/about.html">About</a>
+<a href="/blog.html">Blog</a>
+<a href="/contact.html" class="btn-nav">Get Quote</a>
+</nav>
 
-    <button class="menu-toggle">☰</button>
-  </div>
+<button class="menu-toggle">☰</button>
+</div>
 </header>
 
 <main>
 
-  <!-- HERO -->
-  <section class="page-hero">
-    <div class="container">
-      <h1>Request Your Free Cleaning Quote</h1>
-      <p>Professional house and apartment cleaning services in Miami, FL.</p>
-    </div>
-  </section>
+<section class="page-hero">
+<div class="container">
+<h1>Request Your Free Cleaning Quote</h1>
+<p>Professional residential cleaning services in Miami, Florida.</p>
+</div>
+</section>
 
-  <!-- CONTACT SECTION -->
-  <section class="content-section">
-    <div class="container contact-container">
+<section class="content-section">
+<div class="container contact-container">
 
-      <!-- Contact Form -->
-      <div class="contact-form">
+<!-- CONTACT FORM -->
+<div class="contact-form">
 
-        <h2>Get in Touch</h2>
-        <p>
-          Fill out the form below and our team will contact you shortly 
-          to discuss your cleaning needs.
-        </p>
+<h2>Get Your Personalized Estimate</h2>
 
-        <form action="#" method="POST">
+<p>
+Complete the form below and our team will respond within 24 hours.
+</p>
 
-          <label for="name">Full Name</label>
-          <input type="text" id="name" name="name" required>
+<form action="https://formspree.io/f/ID_YOUR_FORM" method="POST">
 
-          <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" required>
+<!-- Redirect after submit -->
+<input type="hidden" name="_next" value="https://brightcleanmiami.vercel.app/thank-you.html">
 
-          <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="phone">
+<!-- Honeypot Anti-Spam -->
+<input type="text" name="company" style="display:none">
 
-          <label for="service">Service Type</label>
-          <select id="service" name="service">
-            <option value="">Select a Service</option>
-            <option>House Cleaning</option>
-            <option>Apartment Cleaning</option>
-            <option>Deep Cleaning</option>
-            <option>Move-In / Move-Out Cleaning</option>
-            <option>Vacation Rental Cleaning</option>
-          </select>
+<label>Full Name *</label>
+<input type="text" name="name" required>
 
-          <label for="message">Additional Details</label>
-          <textarea id="message" name="message" rows="5"></textarea>
+<label>Email Address *</label>
+<input type="email" name="email" required>
 
-          <button type="submit" class="hero-btn">Request Free Quote</button>
+<label>Phone Number *</label>
+<input type="tel" name="phone" required>
 
-        </form>
+<label>Service Address</label>
+<input type="text" name="address">
 
-      </div>
+<label>Service Type *</label>
+<select name="service" required>
+<option value="">Select a Service</option>
+<option>Standard House Cleaning</option>
+<option>Deep Cleaning</option>
+<option>Move-In Cleaning</option>
+<option>Move-Out Cleaning</option>
+<option>Apartment Cleaning</option>
+<option>Luxury Home Cleaning</option>
+<option>Recurring Weekly Cleaning</option>
+<option>Vacation Rental Cleaning</option>
+</select>
 
-      <!-- Contact Info -->
-      <div class="contact-info">
+<label>Property Size</label>
+<select name="property_size">
+<option value="">Select Property Size</option>
+<option>Studio / 1 Bedroom</option>
+<option>2 Bedrooms</option>
+<option>3 Bedrooms</option>
+<option>4+ Bedrooms</option>
+</select>
 
-        <h2>Contact Information</h2>
+<label>Preferred Cleaning Date</label>
+<input type="date" name="preferred_date">
 
-        <p><strong>Email:</strong> info@brightcleanmiami.com</p>
-        <p><strong>Location:</strong> Miami, Florida</p>
-        <p><strong>Service Areas:</strong> Miami, Brickell, Miami Beach, Coral Gables, Kendall, Doral</p>
+<label>Additional Details</label>
+<textarea name="message" rows="5" placeholder="Tell us about your cleaning needs..."></textarea>
 
-        <h3>Business Hours</h3>
-        <p>Monday – Saturday: 8:00 AM – 6:00 PM</p>
-        <p>Sunday: By Appointment</p>
+<button type="submit" class="hero-btn">Request Free Quote</button>
 
-        <div class="cta-box">
-          <h3>Need Immediate Assistance?</h3>
-          <p>Email us and our team will respond as soon as possible.</p>
-        </div>
+</form>
 
-      </div>
+</div>
 
-    </div>
-  </section>
+<!-- CONTACT INFO -->
+<div class="contact-info">
+
+<h2>Contact Information</h2>
+
+<p><strong>Email:</strong> info@brightcleanmiami.com</p>
+<p><strong>Location:</strong> Miami, Florida</p>
+
+<h3>Service Areas</h3>
+<p>
+Miami, Brickell, Miami Beach, Coconut Grove, Coral Gables, Kendall, Doral
+</p>
+
+<h3>Business Hours</h3>
+<p>Monday – Saturday: 8:00 AM – 6:00 PM</p>
+<p>Sunday: By Appointment</p>
+
+<div class="cta-box">
+<h3>Why Choose Bright Clean Miami?</h3>
+<ul>
+<li>Reliable & punctual service</li>
+<li>Experienced professionals</li>
+<li>Designed for Miami climate conditions</li>
+<li>Flexible scheduling</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+</section>
 
 </main>
 
 <footer class="site-footer">
-  <div class="container footer-container">
+<div class="container footer-container">
 
-    <div>
-      <h3>Bright Clean Miami</h3>
-      <p>Professional Cleaning Services in Miami, FL</p>
-    </div>
+<div>
+<h3>Bright Clean Miami</h3>
+<p>Professional Residential Cleaning Services in Miami, FL</p>
+</div>
 
-    <div>
-      <h4>Quick Links</h4>
-      <a href="/">Home</a>
-      <a href="/services.html">Services</a>
-      <a href="/blog.html">Blog</a>
-    </div>
+<div>
+<h4>Quick Links</h4>
+<a href="/services.html">Services</a>
+<a href="/pricing.html">Pricing</a>
+<a href="/locations.html">Locations</a>
+</div>
 
-    <div>
-      <h4>Contact</h4>
-      <p>Email: info@brightcleanmiami.com</p>
-      <p>Miami, Florida</p>
-    </div>
+<div>
+<h4>Legal</h4>
+<a href="/privacy-policy.html">Privacy Policy</a>
+<a href="/terms-and-conditions.html">Terms & Conditions</a>
+</div>
 
-  </div>
+</div>
 
-  <div class="copyright">
-    © 2026 Bright Clean Miami. All rights reserved.
-  </div>
+<div class="copyright">
+© 2026 Bright Clean Miami. All rights reserved.
+</div>
 </footer>
 
 <script src="/assets/js/main.js"></script>
