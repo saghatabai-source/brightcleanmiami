@@ -1,5 +1,3 @@
-// MOBILE MENU
-
 document.addEventListener("DOMContentLoaded", function(){
 
 const menuBtn = document.querySelector(".menu-toggle");
