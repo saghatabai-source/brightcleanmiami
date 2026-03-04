@@ -623,5 +623,38 @@ transition:all .3s ease;
 transform:translateY(-6px);
 box-shadow:0 12px 30px rgba(0,0,0,0.15);
   }
-   }
+/* TRUST SECTION */
+
+.trust-section{
+background:#f5f7fb;
+padding:60px 0;
+text-align:center;
+}
+
+.trust-box{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 6px 20px rgba(0,0,0,0.08);
+transition:all .3s;
+}
+
+.trust-box:hover{
+transform:translateY(-5px);
+box-shadow:0 12px 30px rgba(0,0,0,0.15);
+  }
+  /* SCROLL ANIMATION */
+
+section{
+opacity:0;
+transform:translateY(40px);
+transition:all .8s ease;
+}
+
+section.show{
+opacity:1;
+transform:translateY(0);
+}
+  }
+
   
