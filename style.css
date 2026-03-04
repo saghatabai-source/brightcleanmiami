@@ -506,5 +506,38 @@ transition:0.3s;
 background:#006edc;
 transform:translateY(-3px);
   }
-   }
+/* GOOGLE RATING */
+
+.rating-box{
+text-align:center;
+margin-bottom:25px;
+}
+
+.stars{
+color:#ffb400;
+font-size:24px;
+letter-spacing:3px;
+  }
+
+/* WHATSAPP BUTTON */
+
+.whatsapp-button{
+position:fixed;
+bottom:90px;
+right:25px;
+background:#25D366;
+color:white;
+font-size:22px;
+padding:14px 16px;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+z-index:999;
+}
+
+.whatsapp-button:hover{
+background:#1ebe5d;
+}
+ }
+
   
