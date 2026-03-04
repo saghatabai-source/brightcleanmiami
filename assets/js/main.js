@@ -32,3 +32,15 @@ entry.target.classList.add("show");
 document.querySelectorAll("section").forEach(section => {
 observer.observe(section);
 });
+function calculateQuote(){
+
+let size = document.getElementById("homeSize").value;
+
+let type = document.getElementById("cleanType").value;
+
+let price = size * type;
+
+document.getElementById("quoteResult").innerHTML =
+"Estimated Price: $" + price;
+
+}
