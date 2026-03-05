@@ -1,4 +1,4 @@
-/* GLOBAL */
+/* ===== RESET ===== */
 
 *{
 margin:0;
@@ -7,23 +7,24 @@ box-sizing:border-box;
 }
 
 body{
-font-family:Arial,Helvetica,sans-serif;
-background:#ffffff;
-color:#222;
+font-family:Arial, Helvetica, sans-serif;
 line-height:1.6;
+color:#222;
+background:#f7f7f7;
 }
 
 .container{
-width:90%;
 max-width:1200px;
 margin:auto;
+padding:20px;
 }
 
-/* HEADER */
+
+/* ===== HEADER ===== */
 
 .site-header{
-background:white;
-border-bottom:1px solid #eee;
+background:#fff;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
 position:sticky;
 top:0;
 z-index:1000;
@@ -31,13 +32,13 @@ z-index:1000;
 
 .header-container{
 display:flex;
-align-items:center;
 justify-content:space-between;
+align-items:center;
 height:70px;
 }
 
 .logo{
-font-size:20px;
+font-size:22px;
 font-weight:bold;
 text-decoration:none;
 color:#111;
@@ -56,17 +57,18 @@ transition:.3s;
 }
 
 .main-nav a:hover{
-color:#0077ff;
+color:#0a84ff;
 }
 
 .btn-nav{
-background:#0077ff;
-color:white!important;
+background:#0a84ff;
+color:#fff;
 padding:8px 16px;
 border-radius:6px;
 }
 
-/* HERO */
+
+/* ===== HERO ===== */
 
 .page-hero{
 position:relative;
@@ -92,7 +94,7 @@ z-index:2;
 }
 
 .page-hero h1{
-font-size:38px;
+font-size:40px;
 margin-bottom:10px;
 }
 
@@ -101,7 +103,8 @@ font-size:18px;
 opacity:.9;
 }
 
-/* CONTENT */
+
+/* ===== CONTENT ===== */
 
 .content-section{
 padding:70px 0;
@@ -125,13 +128,47 @@ margin-bottom:20px;
 margin-bottom:8px;
 }
 
-/* BUTTON */
+.content-section a{
+color:#0a84ff;
+text-decoration:none;
+}
 
-.hero-btn{
+.content-section a:hover{
+text-decoration:underline;
+}
+
+
+/* ===== GRID / CARDS ===== */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:30px;
+}
+
+.card{
+background:#fff;
+padding:25px;
+border-radius:10px;
+box-shadow:0 6px 20px rgba(0,0,0,0.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
+
+
+/* ===== BUTTONS ===== */
+
+.hero-btn,
+.btn-primary{
 display:inline-block;
 margin-top:20px;
 padding:14px 26px;
-background:#0077ff;
+background:#0a84ff;
 color:white;
 text-decoration:none;
 border-radius:6px;
@@ -139,11 +176,21 @@ font-weight:600;
 transition:.3s;
 }
 
-.hero-btn:hover{
-background:#0047ab;
+.hero-btn:hover,
+.btn-primary:hover{
+background:#006edc;
 }
 
-/* CONTACT */
+.btn-secondary{
+background:#333;
+color:white;
+padding:12px 20px;
+border-radius:6px;
+text-decoration:none;
+}
+
+
+/* ===== CONTACT ===== */
 
 .contact-container{
 display:grid;
@@ -167,169 +214,62 @@ padding:30px;
 border-radius:10px;
 }
 
-/* FOOTER */
 
-.site-footer{
-background:#111;
-color:white;
-padding:60px 0 20px;
-margin-top:60px;
+/* ===== REVIEWS ===== */
+
+.reviews-section{
+background:#f4f7fb;
+padding:70px 0;
 }
 
-.footer-container{
-display:flex;
-justify-content:space-between;
-flex-wrap:wrap;
-gap:40px;
-}
-
-.site-footer a{
-color:#ccc;
-text-decoration:none;
-display:block;
-margin-bottom:8px;
-}
-
-.site-footer a:hover{
-color:#0077ff;
-}
-
-.copyright{
-text-align:center;
-margin-top:30px;
-font-size:14px;
-color:#aaa;
-}
-
-/* MOBILE */
-
-@media(max-width:900px){
-
-.main-nav{
-display:none;
-}
-
-.contact-container{
-grid-template-columns:1fr;
-}
-
-.page-hero h1{
-font-size:30px;
-}
-  /* RESET */
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
-body{
-font-family: Arial, Helvetica, sans-serif;
-line-height:1.6;
-color:#222;
-background:#f7f7f7;
-}
-
-/* CONTAINER */
-
-.container{
-max-width:1200px;
-margin:auto;
-padding:20px;
-}
-
-/* HEADER */
-
-.site-header{
-background:#fff;
-box-shadow:0 2px 10px rgba(0,0,0,0.05);
-position:sticky;
-top:0;
-z-index:1000;
-}
-
-.header-container{
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-.logo{
+.stars{
+color:#ffb400;
 font-size:22px;
-font-weight:bold;
-text-decoration:none;
-color:#111;
+margin-bottom:10px;
 }
 
-.main-nav a{
-margin-left:20px;
-text-decoration:none;
-color:#333;
-font-weight:500;
-}
 
-.btn-nav{
-background:#0a84ff;
-color:#fff;
-padding:8px 16px;
-border-radius:6px;
-}
+/* ===== TRUST SECTION ===== */
 
-/* HERO */
-
-.page-hero{
-background:#0a84ff;
-color:#fff;
+.trust-section{
+background:#f5f7fb;
 padding:60px 0;
 text-align:center;
 }
 
-.page-hero h1{
-font-size:36px;
-margin-bottom:10px;
-}
-
-/* CONTENT */
-
-.content-section{
-padding:50px 0;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-}
-
-.card{
-background:#fff;
+.trust-box{
+background:white;
 padding:25px;
 border-radius:10px;
-box-shadow:0 5px 20px rgba(0,0,0,0.05);
+box-shadow:0 6px 20px rgba(0,0,0,0.08);
+transition:.3s;
 }
 
-/* FORM */
-
-input,textarea,select{
-width:100%;
-padding:10px;
-margin-top:6px;
-margin-bottom:16px;
-border:1px solid #ddd;
-border-radius:6px;
+.trust-box:hover{
+transform:translateY(-5px);
+box-shadow:0 12px 30px rgba(0,0,0,0.15);
 }
 
-button{
-background:#0a84ff;
-color:#fff;
-border:none;
-padding:12px 20px;
-border-radius:6px;
-cursor:pointer;
+
+/* ===== CTA ===== */
+
+.cta{
+background:#2c73b8;
+color:white;
+text-align:center;
+padding:80px 20px;
 }
 
-/* FOOTER */
+.cta h2{
+margin-bottom:15px;
+}
+
+.cta p{
+margin-bottom:20px;
+}
+
+
+/* ===== FOOTER ===== */
 
 .site-footer{
 background:#111;
@@ -351,157 +291,18 @@ display:block;
 margin-top:8px;
 }
 
+.site-footer a:hover{
+color:#0a84ff;
+}
+
 .copyright{
 text-align:center;
 margin-top:20px;
 font-size:14px;
 }
 
-/* MOBILE */
 
-.menu-toggle{
-display:none;
-}
-
-@media(max-width:768px){
-
-.main-nav{
-display:none;
-}
-
-.menu-toggle{
-display:block;
-font-size:22px;
-background:none;
-border:none;
-}
-
-/* ===== EXTRA SECTIONS ===== */
-
-
-/* HERO BUTTONS */
-
-.hero-buttons{
-display:flex;
-justify-content:center;
-gap:15px;
-margin-top:25px;
-flex-wrap:wrap;
-}
-
-.button-outline{
-background:transparent;
-border:2px solid white;
-color:white;
-}
-
-
-
-/* REVIEWS */
-
-.reviews-section{
-background:#f4f7fb;
-padding:70px 0;
-}
-
-.reviews-section .card{
-text-align:center;
-}
-
-
-
-/* MAP */
-
-.map-section{
-padding:70px 0;
-text-align:center;
-}
-
-.map-container{
-margin-top:25px;
-border-radius:10px;
-overflow:hidden;
-box-shadow:0 8px 20px rgba(0,0,0,0.15);
-}
-
-
-
-/* SERVICE AREAS LINKS */
-
-.content-section ul{
-margin-top:15px;
-padding-left:20px;
-}
-
-.content-section li{
-margin-bottom:8px;
-}
-
-.content-section a{
-color:#0077ff;
-text-decoration:none;
-}
-
-.content-section a:hover{
-text-decoration:underline;
-}
-
-
-
-/* CTA SECTION */
-
-.cta{
-background:#2c73b8;
-color:white;
-text-align:center;
-padding:80px 20px;
-}
-
-.cta h2{
-margin-bottom:15px;
-}
-
-.cta p{
-margin-bottom:20px;
-  }
-/* STICKY HEADER */
-
-header{
-position:sticky;
-top:0;
-z-index:1000;
-}
-/* MOBILE MENU */
-
-.menu-toggle{
-display:none;
-font-size:24px;
-background:none;
-border:none;
-cursor:pointer;
-}
-
-@media(max-width:768px){
-
-.menu-toggle{
-display:block;
-}
-
-.main-nav{
-display:none;
-flex-direction:column;
-background:white;
-position:absolute;
-right:20px;
-top:70px;
-padding:20px;
-box-shadow:0 10px 30px rgba(0,0,0,0.15);
-}
-
-.main-nav a{
-margin-bottom:10px;
-}
-/* FLOATING CALL BUTTON */
+/* ===== FLOAT BUTTONS ===== */
 
 .call-button{
 position:fixed;
@@ -511,31 +312,10 @@ background:#0a84ff;
 color:white;
 padding:14px 20px;
 border-radius:50px;
-font-weight:600;
 text-decoration:none;
 box-shadow:0 8px 20px rgba(0,0,0,0.2);
 z-index:999;
-transition:0.3s;
 }
-
-.call-button:hover{
-background:#006edc;
-transform:translateY(-3px);
-  }
-/* GOOGLE RATING */
-
-.rating-box{
-text-align:center;
-margin-bottom:25px;
-}
-
-.stars{
-color:#ffb400;
-font-size:24px;
-letter-spacing:3px;
-  }
-
-/* WHATSAPP BUTTON */
 
 .whatsapp-button{
 position:fixed;
@@ -551,149 +331,39 @@ box-shadow:0 8px 20px rgba(0,0,0,0.2);
 z-index:999;
 }
 
-.whatsapp-button:hover{
-background:#1ebe5d;
+
+/* ===== MOBILE ===== */
+
+.menu-toggle{
+display:none;
 }
 
-/* SERVICES GRID */
+@media(max-width:768px){
 
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-margin-top:30px;
-}
-
-.card{
-background:#ffffff;
-padding:25px;
-border-radius:10px;
-box-shadow:0 5px 20px rgba(0,0,0,0.08);
-}
-
-/* HERO BUTTONS */
-
-.hero-buttons{
-margin-top:20px;
-display:flex;
-gap:15px;
-justify-content:center;
-flex-wrap:wrap;
-}
-
-.btn-primary{
-background:#0a84ff;
-color:white;
-padding:12px 20px;
-border-radius:6px;
-text-decoration:none;
-}
-
-.btn-secondary{
-background:#333;
-color:white;
-padding:12px 20px;
-border-radius:6px;
-text-decoration:none;
-}
-
-/* REVIEW STARS */
-
-.stars{
-color:#ffb400;
-font-size:22px;
-margin-bottom:10px;
-display:block;
-}
-/* SERVICE ICONS */
-
-.service-icon{
-font-size:40px;
-margin-bottom:15px;
-  }
-  .card{
-background:#fff;
-padding:25px;
-border-radius:10px;
-box-shadow:0 6px 20px rgba(0,0,0,0.08);
-transition:all .3s ease;
-}
-
-.card:hover{
-transform:translateY(-6px);
-box-shadow:0 12px 30px rgba(0,0,0,0.15);
-  }
-/* TRUST SECTION */
-
-.trust-section{
-background:#f5f7fb;
-padding:60px 0;
-text-align:center;
-}
-
-.trust-box{
+.main-nav{
+display:none;
+flex-direction:column;
 background:white;
-padding:25px;
-border-radius:10px;
-box-shadow:0 6px 20px rgba(0,0,0,0.08);
-transition:all .3s;
+position:absolute;
+right:20px;
+top:70px;
+padding:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
 }
 
-.trust-box:hover{
-transform:translateY(-5px);
-box-shadow:0 12px 30px rgba(0,0,0,0.15);
-  }
-  /* SCROLL ANIMATION */
-
-section{
-opacity:0;
-transform:translateY(40px);
-transition:all .8s ease;
-}
-
-section.show{
-opacity:1;
-transform:translateY(0);
-}
-/* QUOTE CALCULATOR */
-
-.quote-section{
-padding:60px 20px;
-background:#f6f8fb;
-text-align:center;
-}
-
-.quote-box{
-max-width:500px;
-margin:auto;
-background:white;
-padding:30px;
-border-radius:10px;
-box-shadow:0 8px 25px rgba(0,0,0,0.08);
-}
-
-.quote-box label{
+.menu-toggle{
 display:block;
-margin-top:15px;
-font-weight:600;
+font-size:24px;
+background:none;
+border:none;
 }
 
-.quote-box select{
-width:100%;
-padding:10px;
-margin-top:8px;
-border-radius:6px;
-border:1px solid #ccc;
+.contact-container{
+grid-template-columns:1fr;
 }
 
-.quote-box button{
-margin-top:20px;
-width:100%;
+.page-hero h1{
+font-size:30px;
 }
 
-#quoteResult{
-margin-top:20px;
-color:#0a84ff;
-  }
-    }
-  
+}
