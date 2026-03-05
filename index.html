@@ -24,7 +24,7 @@ gtag('js',new Date());
 gtag('config','G-ZP5F1MCJRZ');
 </script>
 
-<!-- Schema -->
+<!-- Local Business Schema -->
 
 <script type="application/ld+json">
 {
@@ -39,7 +39,9 @@ gtag('config','G-ZP5F1MCJRZ');
 "Kendall",
 "Miami Beach",
 "Coral Gables",
-"Doral"
+"Doral",
+"Edgewater",
+"Wynwood"
 ],
 "priceRange":"$$",
 "address":{
@@ -51,10 +53,57 @@ gtag('config','G-ZP5F1MCJRZ');
 }
 </script>
 
+<!-- FAQ Schema -->
+
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"FAQPage",
+"mainEntity":[
+
+{
+"@type":"Question",
+"name":"How much does house cleaning cost in Miami?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"House cleaning prices in Miami usually range from $120 to $300 depending on the size of the home and the type of cleaning service."
+}
+},
+
+{
+"@type":"Question",
+"name":"How often should I schedule house cleaning?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"Most homeowners schedule weekly or biweekly cleaning services to maintain a consistently clean home."
+}
+},
+
+{
+"@type":"Question",
+"name":"Do you provide apartment cleaning services?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"Yes. Bright Clean Miami provides apartment and condo cleaning services across Miami including Brickell, Downtown Miami and Edgewater."
+}
+},
+
+{
+"@type":"Question",
+"name":"What areas of Miami do you serve?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"We provide house cleaning services across many Miami neighborhoods including Brickell, Coral Gables, Coconut Grove, Kendall and Miami Beach."
+}
+}
+
+]
+}
+</script>
+
 </head>
 
 <body>
-
 
 <header class="site-header">
 
@@ -79,8 +128,12 @@ gtag('config','G-ZP5F1MCJRZ');
 </header>
 
 
+
 <main>
 
+
+
+<!-- HERO -->
 
 <section class="page-hero">
 
@@ -106,6 +159,8 @@ Reliable residential cleaning services for homes, condos and apartments across M
 
 
 
+<!-- SERVICES -->
+
 <section class="content-section">
 
 <div class="container">
@@ -114,29 +169,29 @@ Reliable residential cleaning services for homes, condos and apartments across M
 
 <div class="grid">
 
-<div class="card">
+<a href="deep-cleaning-miami.html" class="card">
 <div class="service-icon">🧼</div>
 <h3>Deep Cleaning</h3>
 <p>Detailed cleaning for kitchens, bathrooms and hard-to-reach areas.</p>
-</div>
+</a>
 
-<div class="card">
-<div class="service-icon">🧹</div>
-<h3>Recurring Cleaning</h3>
-<p>Weekly or biweekly cleaning to maintain a spotless home.</p>
-</div>
-
-<div class="card">
-<div class="service-icon">🚚</div>
-<h3>Move Out Cleaning</h3>
-<p>Complete property cleaning when moving out of your home.</p>
-</div>
-
-<div class="card">
+<a href="miami-apartment-cleaning.html" class="card">
 <div class="service-icon">🏢</div>
 <h3>Apartment Cleaning</h3>
-<p>Professional cleaning for apartments and condos across Miami.</p>
-</div>
+<p>Professional cleaning for apartments and condos.</p>
+</a>
+
+<a href="move-out-cleaning-miami.html" class="card">
+<div class="service-icon">🚚</div>
+<h3>Move Out Cleaning</h3>
+<p>Complete property cleaning when moving out.</p>
+</a>
+
+<a href="miami-house-cleaning.html" class="card">
+<div class="service-icon">🏠</div>
+<h3>House Cleaning Miami</h3>
+<p>Professional residential cleaning services.</p>
+</a>
 
 </div>
 
@@ -145,6 +200,8 @@ Reliable residential cleaning services for homes, condos and apartments across M
 </section>
 
 
+
+<!-- TRUST -->
 
 <section class="trust-section">
 
@@ -177,50 +234,13 @@ Reliable residential cleaning services for homes, condos and apartments across M
 
 
 
-<section class="content-section">
-
-<div class="container">
-
-<div class="rating-box">
-
-<span class="stars">★★★★★</span>
-
-<p>Rated <strong>5.0</strong> based on customer reviews</p>
-
-</div>
-
-<h2>What Our Customers Say</h2>
-
-<div class="grid">
-
-<div class="card">
-<p>"Fantastic cleaning service. Our Brickell condo has never looked better."</p>
-<strong>— Maria L.</strong>
-</div>
-
-<div class="card">
-<p>"Reliable, professional and detailed team."</p>
-<strong>— Daniel R.</strong>
-</div>
-
-<div class="card">
-<p>"Best cleaning company we've used in Miami."</p>
-<strong>— Sofia M.</strong>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
+<!-- SERVICE AREAS -->
 
 <section class="content-section">
 
 <div class="container">
 
-<h2>Service Areas</h2>
+<h2>House Cleaning Service Areas</h2>
 
 <ul>
 
@@ -228,9 +248,17 @@ Reliable residential cleaning services for homes, condos and apartments across M
 
 <li><a href="house-cleaning-coral-gables.html">House Cleaning Coral Gables</a></li>
 
+<li><a href="house-cleaning-coconut-grove.html">House Cleaning Coconut Grove</a></li>
+
 <li><a href="house-cleaning-kendall.html">House Cleaning Kendall</a></li>
 
 <li><a href="house-cleaning-miami-beach.html">House Cleaning Miami Beach</a></li>
+
+<li><a href="house-cleaning-doral.html">House Cleaning Doral</a></li>
+
+<li><a href="house-cleaning-edgewater.html">House Cleaning Edgewater</a></li>
+
+<li><a href="house-cleaning-wynwood.html">House Cleaning Wynwood</a></li>
 
 </ul>
 
@@ -239,28 +267,62 @@ Reliable residential cleaning services for homes, condos and apartments across M
 </section>
 
 
+
+<!-- FAQ -->
 
 <section class="content-section">
 
 <div class="container">
 
-<h2>Cleaning Tips</h2>
+<h2>Frequently Asked Questions</h2>
 
-<ul>
+<div class="faq-item">
 
-<li><a href="how-often-should-you-clean-your-home-in-miami.html">How Often Should You Clean Your Home in Miami?</a></li>
+<h3>How much does house cleaning cost in Miami?</h3>
 
-<li><a href="deep-cleaning-vs-regular-cleaning-miami.html">Deep Cleaning vs Regular Cleaning</a></li>
+<p>
+Cleaning prices depend on home size and cleaning type. Most Miami homes range between $120 and $300 per visit.
+</p>
 
-<li><a href="apartment-cleaning-checklist-miami.html">Apartment Cleaning Checklist</a></li>
+</div>
 
-</ul>
+<div class="faq-item">
+
+<h3>How often should I schedule house cleaning?</h3>
+
+<p>
+Most homeowners choose weekly or biweekly cleaning services to keep their homes consistently clean.
+</p>
+
+</div>
+
+<div class="faq-item">
+
+<h3>Do you provide apartment cleaning services?</h3>
+
+<p>
+Yes. We clean apartments and condos across Miami including Brickell, Downtown Miami and Edgewater.
+</p>
+
+</div>
+
+<div class="faq-item">
+
+<h3>What areas of Miami do you serve?</h3>
+
+<p>
+We serve many neighborhoods including Brickell, Coral Gables, Coconut Grove, Kendall and Miami Beach.
+</p>
+
+</div>
 
 </div>
 
 </section>
 
 
+
+<!-- MAP -->
 
 <section class="content-section">
 
@@ -282,48 +344,7 @@ loading="lazy">
 
 
 
-<section class="quote-section">
-
-<div class="container">
-
-<h2>Get Instant Cleaning Estimate</h2>
-
-<div class="quote-box">
-
-<label>Home Size</label>
-
-<select id="homeSize">
-
-<option value="120">Small Apartment</option>
-<option value="180">Medium Home</option>
-<option value="250">Large Home</option>
-<option value="320">Luxury Home</option>
-
-</select>
-
-<label>Cleaning Type</label>
-
-<select id="cleanType">
-
-<option value="1">Regular Cleaning</option>
-<option value="1.5">Deep Cleaning</option>
-<option value="1.3">Move Out Cleaning</option>
-
-</select>
-
-<button onclick="calculateQuote()" class="btn-primary">
-Calculate Price
-</button>
-
-<h3 id="quoteResult"></h3>
-
-</div>
-
-</div>
-
-</section>
-
-
+<!-- CTA -->
 
 <section class="cta">
 
@@ -338,6 +359,7 @@ Calculate Price
 </div>
 
 </section>
+
 
 
 </main>
@@ -390,11 +412,9 @@ Calculate Price
 
 <script src="assets/js/main.js"></script>
 
-
 <a href="tel:+13050000000" class="call-button">📞</a>
 
 <a href="https://wa.me/13050000000" class="whatsapp-button">💬</a>
-
 
 </body>
 </html>
