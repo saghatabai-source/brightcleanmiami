@@ -1,0 +1,21 @@
+# robots.txt for Bright Clean Miami
+# https://brightcleanmiami.vercel.app
+
+User-agent: *
+
+# Allow all important content
+Allow: /
+
+# Prevent indexing of system folders
+Disallow: /assets/js/
+Disallow: /assets/css/
+
+# Prevent crawling of temporary or internal files
+Disallow: /tmp/
+Disallow: /private/
+
+# Allow search engines to crawl images
+Allow: /images/
+
+# Sitemap location
+Sitemap: https://brightcleanmiami.vercel.app/sitemap.xml
