@@ -47,6 +47,7 @@ color:#111;
 .main-nav{
 display:flex;
 gap:24px;
+align-items:center;
 }
 
 .main-nav a{
@@ -65,6 +66,17 @@ background:#0a84ff;
 color:#fff;
 padding:8px 16px;
 border-radius:6px;
+}
+
+
+/* ===== MOBILE MENU ===== */
+
+.menu-toggle{
+display:none;
+font-size:28px;
+background:none;
+border:none;
+cursor:pointer;
 }
 
 
@@ -138,7 +150,7 @@ text-decoration:underline;
 }
 
 
-/* ===== GRID / CARDS ===== */
+/* ===== GRID ===== */
 
 .grid{
 display:grid;
@@ -229,7 +241,7 @@ margin-bottom:10px;
 }
 
 
-/* ===== TRUST SECTION ===== */
+/* ===== TRUST ===== */
 
 .trust-section{
 background:#f5f7fb;
@@ -334,11 +346,11 @@ z-index:999;
 
 /* ===== MOBILE ===== */
 
-.menu-toggle{
-display:none;
-}
-
 @media(max-width:768px){
+
+.menu-toggle{
+display:block;
+}
 
 .main-nav{
 display:none;
@@ -347,15 +359,19 @@ background:white;
 position:absolute;
 right:20px;
 top:70px;
+width:220px;
 padding:20px;
+border-radius:8px;
 box-shadow:0 10px 30px rgba(0,0,0,0.15);
 }
 
-.menu-toggle{
-display:block;
-font-size:24px;
-background:none;
-border:none;
+.main-nav.active{
+display:flex;
+}
+
+.main-nav a{
+padding:10px 0;
+border-bottom:1px solid #eee;
 }
 
 .contact-container{
