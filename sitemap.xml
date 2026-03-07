@@ -6,7 +6,7 @@
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/</loc>
-<lastmod>2026-03-05</lastmod>
+<lastmod>2026-03-07</lastmod>
 <priority>1.00</priority>
 </url>
 
@@ -15,40 +15,29 @@
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/services.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.95</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/locations.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.95</priority>
 </url>
 
 <url>
-<loc>https://brightcleanmiami.vercel.app/miami-cleaning-service-areas.html</loc>
-<lastmod>2026-03-05</lastmod>
-<priority>0.92</priority>
-</url>
-
-<url>
 <loc>https://brightcleanmiami.vercel.app/about.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.85</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/contact.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.85</priority>
 </url>
 
 
-<!-- BOOKING PAGE -->
+<!-- BOOKING -->
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/book-house-cleaning-miami.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.96</priority>
 </url>
 
@@ -57,32 +46,42 @@
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/miami-house-cleaning.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.96</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/miami-cleaning-services.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.96</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/cleaning-services-near-me-miami.html</loc>
-<lastmod>2026-03-05</lastmod>
-<priority>0.94</priority>
+<priority>0.95</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/best-house-cleaning-miami.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.94</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/miami-apartment-cleaning.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.93</priority>
+</url>
+
+<url>
+<loc>https://brightcleanmiami.vercel.app/residential-cleaning-miami.html</loc>
+<priority>0.93</priority>
+</url>
+
+<url>
+<loc>https://brightcleanmiami.vercel.app/cleaning-company-miami.html</loc>
+<priority>0.92</priority>
+</url>
+
+<url>
+<loc>https://brightcleanmiami.vercel.app/house-cleaning-prices-miami.html</loc>
+<priority>0.92</priority>
 </url>
 
 
@@ -90,13 +89,11 @@
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/deep-cleaning-miami.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.90</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/move-out-cleaning-miami.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.90</priority>
 </url>
 
@@ -105,79 +102,66 @@
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/house-cleaning-brickell.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/house-cleaning-coconut-grove.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/house-cleaning-coral-gables.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/house-cleaning-kendall.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/house-cleaning-miami-beach.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/house-cleaning-doral.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/house-cleaning-downtown-miami.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/house-cleaning-edgewater.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/house-cleaning-wynwood.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/house-cleaning-midtown-miami.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/house-cleaning-aventura.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/house-cleaning-key-biscayne.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.88</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/house-cleaning-sunny-isles.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.88</priority>
 </url>
 
@@ -186,37 +170,36 @@
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/blog.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.80</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/apartment-cleaning-checklist-miami.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.75</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/deep-cleaning-vs-regular-cleaning-miami.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.75</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/how-often-should-you-clean-your-home-in-miami.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.75</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/is-professional-cleaning-worth-it-in-miami.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.75</priority>
 </url>
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/mold-prevention-tips-miami-homes.html</loc>
-<lastmod>2026-03-05</lastmod>
+<priority>0.75</priority>
+</url>
+
+<url>
+<loc>https://brightcleanmiami.vercel.app/how-much-does-house-cleaning-cost-miami.html</loc>
 <priority>0.75</priority>
 </url>
 
@@ -225,41 +208,7 @@
 
 <url>
 <loc>https://brightcleanmiami.vercel.app/privacy-policy.html</loc>
-<lastmod>2026-03-05</lastmod>
 <priority>0.40</priority>
 </url>
 
-
-<url>
-<loc>https://brightcleanmiami.vercel.app/how-much-does-house-cleaning-cost-miami.html</loc>
-<lastmod>2026-03-06</lastmod>
-<priority>0.75</priority>
-</url>
-
-<url>
-<loc>https://brightcleanmiami.vercel.app/best-house-cleaning-miami.html</loc>
-<lastmod>2026-03-06</lastmod>
-<priority>0.90</priority>
-</url>
-
-<url>
-<loc>https://brightcleanmiami.vercel.app/cleaning-services-near-me-miami.html</loc>
-<lastmod>2026-03-06</lastmod>
-<priority>0.92</priority>
-</url>
-
-<url>
-<loc>https://brightcleanmiami.vercel.app/miami-house-cleaning.html</loc>
-<lastmod>2026-03-06</lastmod>
-<priority>0.95</priority>
-</url>
-
-<url>
-<loc>https://brightcleanmiami.vercel.app/miami-cleaning-services.html</loc>
-<lastmod>2026-03-07</lastmod>
-<priority>0.95</priority>
-</url>  
-
-  
-  
 </urlset>
