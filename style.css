@@ -20,11 +20,12 @@ padding:20px;
 }
 
 
-/* ===== HEADER ===== */
+/* ===== HEADER (PROFESSIONAL) ===== */
 
 .site-header{
-background:#fff;
-box-shadow:0 2px 10px rgba(0,0,0,0.05);
+background:#ffffff;
+border-bottom:1px solid #e5e5e5;
+padding:18px 0;
 position:sticky;
 top:0;
 z-index:1000;
@@ -34,52 +35,44 @@ z-index:1000;
 display:flex;
 justify-content:space-between;
 align-items:center;
-height:70px;
 }
 
 .logo{
-font-size:22px;
-font-weight:bold;
+font-size:26px;
+font-weight:700;
+color:#0a2540;
 text-decoration:none;
-color:#111;
 }
 
-
-/* ===== NAVIGATION ===== */
-
-.main-nav{
+.header-actions{
 display:flex;
-gap:24px;
-align-items:center;
+gap:15px;
 }
 
-.main-nav a{
-text-decoration:none;
-color:#333;
-font-weight:500;
-transition:0.3s;
-}
-
-.main-nav a:hover{
-color:#0a84ff;
-}
-
-.btn-nav{
-background:#0a84ff;
-color:#fff;
-padding:8px 16px;
+.quote-btn{
+background:#2b6cb0;
+color:white;
+padding:10px 20px;
 border-radius:6px;
+text-decoration:none;
+font-weight:600;
 }
 
+.quote-btn:hover{
+background:#1e4e8c;
+}
 
-/* ===== MOBILE MENU BUTTON ===== */
+.call-btn{
+background:#16a34a;
+color:white;
+padding:10px 20px;
+border-radius:6px;
+text-decoration:none;
+font-weight:600;
+}
 
-.menu-toggle{
-display:none;
-font-size:28px;
-background:none;
-border:none;
-cursor:pointer;
+.call-btn:hover{
+background:#15803d;
 }
 
 
@@ -87,7 +80,7 @@ cursor:pointer;
 
 .page-hero{
 position:relative;
-background:url("images/brickellluxury.jpeg") center/cover no-repeat;
+background:url("../images/brickellluxury.jpeg") center/cover no-repeat;
 color:white;
 padding:120px 20px;
 text-align:center;
@@ -116,6 +109,14 @@ margin-bottom:10px;
 .page-hero p{
 font-size:18px;
 opacity:.9;
+}
+
+.hero-buttons{
+margin-top:20px;
+display:flex;
+gap:15px;
+justify-content:center;
+flex-wrap:wrap;
 }
 
 
@@ -176,6 +177,28 @@ box-shadow:0 12px 30px rgba(0,0,0,0.15);
 }
 
 
+/* ===== TRUST ===== */
+
+.trust-section{
+background:#f5f7fb;
+padding:60px 0;
+text-align:center;
+}
+
+.trust-box{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 6px 20px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.trust-box:hover{
+transform:translateY(-5px);
+box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
+
+
 /* ===== BUTTONS ===== */
 
 .hero-btn,
@@ -202,67 +225,6 @@ color:white;
 padding:12px 20px;
 border-radius:6px;
 text-decoration:none;
-}
-
-
-/* ===== CONTACT ===== */
-
-.contact-container{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:40px;
-}
-
-.contact-form input,
-.contact-form textarea,
-.contact-form select{
-width:100%;
-padding:12px;
-border:1px solid #ddd;
-border-radius:6px;
-margin-bottom:16px;
-}
-
-.contact-info{
-background:#f7f7f7;
-padding:30px;
-border-radius:10px;
-}
-
-
-/* ===== REVIEWS ===== */
-
-.reviews-section{
-background:#f4f7fb;
-padding:70px 0;
-}
-
-.stars{
-color:#ffb400;
-font-size:22px;
-margin-bottom:10px;
-}
-
-
-/* ===== TRUST ===== */
-
-.trust-section{
-background:#f5f7fb;
-padding:60px 0;
-text-align:center;
-}
-
-.trust-box{
-background:white;
-padding:25px;
-border-radius:10px;
-box-shadow:0 6px 20px rgba(0,0,0,0.08);
-transition:0.3s;
-}
-
-.trust-box:hover{
-transform:translateY(-5px);
-box-shadow:0 12px 30px rgba(0,0,0,0.15);
 }
 
 
@@ -351,128 +313,17 @@ z-index:999;
 
 @media(max-width:768px){
 
-.menu-toggle{
-display:block;
-}
-
-.main-nav{
-display:none;
+.header-container{
 flex-direction:column;
-position:absolute;
-top:70px;
-right:20px;
-width:230px;
-background:white;
-padding:20px;
-border-radius:8px;
-box-shadow:0 10px 30px rgba(0,0,0,0.15);
-}
-
-.main-nav.active{
-display:flex;
-}
-
-.main-nav a{
-padding:10px 0;
-border-bottom:1px solid #eee;
-}
-
-.main-nav a:last-child{
-border-bottom:none;
-}
-
-.contact-container{
-grid-template-columns:1fr;
+gap:15px;
 }
 
 .page-hero h1{
 font-size:30px;
 }
 
-/* HEADER PROFESSIONAL */
-
-.site-header{
-background:#ffffff;
-border-bottom:1px solid #eee;
-padding:20px 0;
-}
-
-.header-container{
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-.logo a{
-text-decoration:none;
-font-size:28px;
-font-weight:700;
-color:#0a2540;
-}
-
-.tagline{
-font-size:14px;
-color:#777;
-margin-top:5px;
-}
-
-.header-call{
-background:#2b6cb0;
-color:white;
-padding:10px 18px;
-border-radius:6px;
-text-decoration:none;
-font-weight:600;
-}
-
-.header-call:hover{
-background:#1e4e8c;
-}
-
-/* HERO PROFESSIONAL */
-
-.hero-clean{
-padding:80px 0;
-background:#f7f9fc;
-}
-
-.hero-clean-grid{
-display:grid;
-grid-template-columns:1fr 1fr;
-align-items:center;
-gap:40px;
-}
-
-.hero-clean-content h1{
-font-size:42px;
-margin-bottom:20px;
-color:#0a2540;
-}
-
-.hero-subtitle{
-font-size:18px;
-color:#555;
-margin-bottom:30px;
-line-height:1.6;
-}
-
 .hero-buttons{
-display:flex;
-gap:15px;
-margin-bottom:25px;
+flex-direction:column;
 }
 
-.hero-trust{
-display:flex;
-gap:20px;
-font-size:14px;
-color:#2b6cb0;
-font-weight:600;
 }
-
-.hero-clean-image img{
-width:100%;
-border-radius:10px;
-box-shadow:0 10px 30px rgba(0,0,0,0.1);
- }
-  }
