@@ -62,12 +62,13 @@ background:#15803d;
 
 /* ===== HERO ===== */
 
-.page-hero{
-position:relative;
-background:url("../images/brickellluxury.jpeg") center/cover no-repeat;
-color:white;
-padding:120px 20px;
-text-align:center;
+.hero-clean-image img{
+width:100%;
+max-width:420px;
+height:auto;
+border-radius:10px;
+display:block;
+margin:auto;
 }
 
 .page-hero::before{
