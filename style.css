@@ -326,4 +326,24 @@ font-size:30px;
 flex-direction:column;
 }
 
+/* REVIEWS SECTION */
+
+.reviews-section{
+background:#f4f7fb;
+padding:80px 0;
+text-align:center;
 }
+
+.reviews-section h2{
+margin-bottom:15px;
+font-size:28px;
+}
+
+.stars{
+color:#ffb400;
+font-size:22px;
+margin-bottom:30px;
+font-weight:600;
+  }
+    }
+
