@@ -104,6 +104,31 @@ justify-content:center;
 flex-wrap:wrap;
 }
 
+.hero-clean-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+align-items:center;
+gap:40px;
+}
+
+.hero-clean-content{
+max-width:520px;
+}
+
+@media(max-width:768px){
+
+.hero-clean-grid{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+.hero-clean-image img{
+max-width:300px;
+}
+
+}
+
+
 
 /* ===== CONTENT ===== */
 
