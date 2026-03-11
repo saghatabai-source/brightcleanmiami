@@ -115,10 +115,11 @@ align-items:center;
 }
 
 .hero-clean-image img{
-max-width:240px;
-width:100%;
+width:auto;
+max-width:200px;
 height:auto;
 display:block;
+margin:0 auto;
 }
 
 
@@ -136,8 +137,8 @@ max-width:100%;
 }
 
 .hero-clean-image img{
-max-width:180px;
-margin-top:20px;
+max-width:160px;
+margin-top:15px;
 }
 
 .hero-buttons{
