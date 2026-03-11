@@ -400,5 +400,9 @@ text-align:center;
 max-width:220px;
 }
 
+
+img{
+max-width:200px !important;
+}
  }
  
