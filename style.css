@@ -309,4 +309,34 @@ box-shadow:0 8px 20px rgba(0,0,0,0.3);
 z-index:99999;
 font-size:16px;
   }
-   }
+/* FLOAT BUTTONS */
+
+.call-button{
+position:fixed;
+bottom:90px;
+right:20px;
+background:#16a34a;
+color:#fff;
+padding:14px 22px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
+z-index:9999;
+font-size:16px;
+}
+
+.telegram-button{
+position:fixed;
+bottom:30px;
+right:20px;
+background:#229ED9;
+color:white;
+font-size:22px;
+padding:14px 16px;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
+z-index:9999;
+}
+  }
