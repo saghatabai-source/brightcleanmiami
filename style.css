@@ -20,7 +20,7 @@ padding:20px;
 }
 
 
-/* ===== HEADER (PROFESSIONAL) ===== */
+/* ===== HEADER ===== */
 
 .header-actions{
 display:flex;
@@ -36,7 +36,7 @@ border-radius:6px;
 text-decoration:none;
 font-weight:600;
 font-size:14px;
-transition:0.2s;
+transition:.2s;
 }
 
 .quote-btn:hover{
@@ -51,7 +51,7 @@ border-radius:6px;
 text-decoration:none;
 font-weight:600;
 font-size:14px;
-transition:0.2s;
+transition:.2s;
 }
 
 .call-btn:hover{
@@ -59,7 +59,7 @@ background:#15803d;
 }
 
 
-/* ===== HERO SECTION ===== */
+/* ===== HERO ===== */
 
 .hero-clean{
 padding:80px 0;
@@ -105,19 +105,22 @@ font-size:14px;
 color:#444;
 }
 
-/* HERO IMAGE */
+
+/* ===== HERO IMAGE ===== */
 
 .hero-clean-image{
-text-align:center;
+display:flex;
+justify-content:center;
+align-items:center;
 }
 
 .hero-clean-image img{
+max-width:240px;
 width:100%;
-max-width:320px;
 height:auto;
 display:block;
-margin:auto;
 }
+
 
 /* ===== MOBILE HERO ===== */
 
@@ -133,8 +136,8 @@ max-width:100%;
 }
 
 .hero-clean-image img{
-max-width:220px;
-margin-top:25px;
+max-width:180px;
+margin-top:20px;
 }
 
 .hero-buttons{
@@ -145,7 +148,7 @@ justify-content:center;
 justify-content:center;
 }
 
-  }
+}
 
 
 /* ===== CONTENT ===== */
@@ -196,7 +199,7 @@ background:#fff;
 padding:25px;
 border-radius:10px;
 box-shadow:0 6px 20px rgba(0,0,0,0.08);
-transition:0.3s;
+transition:.3s;
 }
 
 .card:hover{
@@ -205,47 +208,24 @@ box-shadow:0 12px 30px rgba(0,0,0,0.15);
 }
 
 
-/* ===== TRUST ===== */
+/* ===== REVIEWS ===== */
 
-.trust-section{
-background:#f5f7fb;
-padding:60px 0;
+.reviews-section{
+background:#f4f7fb;
+padding:80px 0;
 text-align:center;
 }
 
-.trust-box{
-background:white;
-padding:25px;
-border-radius:10px;
-box-shadow:0 6px 20px rgba(0,0,0,0.08);
-transition:0.3s;
+.reviews-section h2{
+margin-bottom:15px;
+font-size:28px;
 }
 
-.trust-box:hover{
-transform:translateY(-5px);
-box-shadow:0 12px 30px rgba(0,0,0,0.15);
-}
-
-
-/* FLOAT CALL BUTTON */
-
-.call-button{
-position:fixed;
-bottom:25px;
-right:20px;
-background:#16a34a;
-color:#fff;
-padding:14px 22px;
-border-radius:50px;
-text-decoration:none;
+.stars{
+color:#ffb400;
+font-size:22px;
+margin-bottom:30px;
 font-weight:600;
-box-shadow:0 8px 20px rgba(0,0,0,0.25);
-z-index:9999;
-font-size:16px;
-}
-
-.call-button:hover{
-background:#15803d;
 }
 
 
@@ -253,7 +233,7 @@ background:#15803d;
 
 .cta{
 background:#2c73b8;
-color:white;
+color:#fff;
 text-align:center;
 padding:80px 20px;
 }
@@ -300,86 +280,23 @@ font-size:14px;
 }
 
 
-/* ===== FLOAT BUTTONS ===== */
+/* ===== FLOAT CALL BUTTON ===== */
 
 .call-button{
 position:fixed;
 bottom:25px;
 right:25px;
 background:#16a34a;
-color:white;
+color:#fff;
 padding:14px 22px;
 border-radius:50px;
 text-decoration:none;
 font-weight:600;
-box-shadow:0 8px 20px rgba(0,0,0,0.2);
-z-index:999;
+box-shadow:0 8px 20px rgba(0,0,0,0.25);
+z-index:9999;
+font-size:16px;
 }
 
 .call-button:hover{
 background:#15803d;
-}
-
-.whatsapp-button{
-position:fixed;
-bottom:90px;
-right:25px;
-background:#25D366;
-color:white;
-font-size:22px;
-padding:14px 16px;
-border-radius:50%;
-text-decoration:none;
-box-shadow:0 8px 20px rgba(0,0,0,0.2);
-z-index:999;
-}
-
-
-/* ===== REVIEWS ===== */
-
-.reviews-section{
-background:#f4f7fb;
-padding:80px 0;
-text-align:center;
-}
-
-.reviews-section h2{
-margin-bottom:15px;
-font-size:28px;
-}
-
-.stars{
-color:#ffb400;
-font-size:22px;
-margin-bottom:30px;
-font-weight:600;
-}
-
-
-/* ===== MOBILE ===== */
-
-@media(max-width:768px){
-
-.header-container{
-flex-direction:column;
-gap:15px;
-}
-
-.page-hero h1{
-font-size:30px;
-}
-
-.hero-clean-grid{
-grid-template-columns:1fr;
-text-align:center;
-}
-
-.hero-clean-image img{
-max-width:220px;
-}
-
-.hero-buttons{
-flex-direction:column;
-}
-
 }
