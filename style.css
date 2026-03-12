@@ -244,6 +244,11 @@ margin-top:20px;
 font-size:14px;
 }
 
+.site-footer{
+position:relative;
+z-index:1;
+}
+
 /* ===== FLOAT BUTTONS ===== */
 
 .call-float{
@@ -312,4 +317,9 @@ justify-content:center;
 .call-float,
 .whatsapp-float{
 display:flex !important;
+  }
+.call-float,
+.whatsapp-float{
+position:fixed;
+z-index:999999;
   }
