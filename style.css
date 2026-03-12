@@ -359,3 +359,40 @@ color:#2563eb;
 
   }
 
+/* TRUST BAR */
+
+.trust-bar{
+
+background:#ffffff;
+
+padding:20px 0;
+
+border-bottom:1px solid #e5e5e5;
+
+}
+
+.trust-container{
+
+max-width:1100px;
+
+margin:auto;
+
+display:flex;
+
+justify-content:space-around;
+
+flex-wrap:wrap;
+
+font-weight:600;
+
+color:#333;
+
+}
+
+.trust-container div{
+
+margin:5px 10px;
+
+  }
+   }
+
