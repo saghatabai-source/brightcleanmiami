@@ -311,12 +311,22 @@ font-size:16px;
   }
 /* FLOAT BUTTONS */
 
+<a href="tel:+13050000000" class="call-button">
+📞 Call
+</a>
+
+<a href="https://wa.me/13050000000" class="whatsapp-button" target="_blank">
+💬
+</a>
+
+ /* FLOAT BUTTONS */
+
 .call-button{
 position:fixed;
 bottom:90px;
 right:20px;
 background:#16a34a;
-color:#fff;
+color:white;
 padding:14px 22px;
 border-radius:50px;
 text-decoration:none;
@@ -326,11 +336,11 @@ z-index:9999;
 font-size:16px;
 }
 
-.telegram-button{
+.whatsapp-button{
 position:fixed;
 bottom:30px;
 right:20px;
-background:#229ED9;
+background:#25D366;
 color:white;
 font-size:22px;
 padding:14px 16px;
@@ -338,5 +348,8 @@ border-radius:50%;
 text-decoration:none;
 box-shadow:0 8px 20px rgba(0,0,0,0.3);
 z-index:9999;
-}
   }
+   }
+
+
+
