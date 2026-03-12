@@ -342,3 +342,20 @@ text-decoration:none;
 background:#218838;
 
   }
+
+a{
+
+color:#3b82f6;
+
+text-decoration:none;
+
+transition:0.2s;
+
+}
+
+a:hover{
+
+color:#2563eb;
+
+  }
+
