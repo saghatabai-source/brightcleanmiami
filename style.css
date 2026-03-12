@@ -15,7 +15,7 @@ background:#f7f7f7;
 
 .container{
 max-width:1200px;
-margin:auto;
+margin:0 auto;
 padding:20px;
 }
 
@@ -217,12 +217,15 @@ margin-bottom:15px;
 margin-bottom:20px;
 }
 
-/* ===== FOOTER ===== 
+/* ===== FOOTER ===== */
 
-.site-footer a{
-color:#9fd1ff;
-text-decoration:none;
-margin-top:8px;
+.site-footer{
+background:#0b2239;
+color:#ddd;
+padding:40px 0;
+margin-top:40px;
+position:relative;
+z-index:1;
 }
 
 .footer-container{
@@ -244,11 +247,6 @@ margin-top:20px;
 font-size:14px;
 }
 
-.site-footer{
-position:relative;
-z-index:1;
-}
-
 /* ===== FLOAT BUTTONS ===== */
 
 .call-float{
@@ -266,7 +264,7 @@ justify-content:center;
 font-size:24px;
 text-decoration:none;
 box-shadow:0 8px 20px rgba(0,0,0,0.3);
-z-index:9999;
+z-index:999999;
 }
 
 .whatsapp-float{
@@ -284,7 +282,7 @@ justify-content:center;
 font-size:26px;
 text-decoration:none;
 box-shadow:0 8px 20px rgba(0,0,0,0.3);
-z-index:9999;
+z-index:999999;
 }
 
 /* ===== MOBILE ===== */
@@ -314,12 +312,4 @@ justify-content:center;
 justify-content:center;
 }
 
-.call-float,
-.whatsapp-float{
-display:flex !important;
-  }
-.call-float,
-.whatsapp-float{
-position:fixed;
-z-index:999999;
-  }
+}
