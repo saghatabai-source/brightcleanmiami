@@ -217,13 +217,12 @@ margin-bottom:15px;
 margin-bottom:20px;
 }
 
-/* ===== FOOTER ===== */
+/* ===== FOOTER ===== 
 
-.site-footer{
-background:#0b2239;
-color:#ddd;
-padding:40px 0;
-margin-top:40px;
+.site-footer a{
+color:#9fd1ff;
+text-decoration:none;
+margin-top:8px;
 }
 
 .footer-container{
@@ -310,4 +309,7 @@ justify-content:center;
 justify-content:center;
 }
 
-}
+.call-float,
+.whatsapp-float{
+display:flex !important;
+  }
