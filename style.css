@@ -529,4 +529,43 @@ font-weight:500;
 
 }
 
+/* CTA BUTTONS */
+
+.hero-buttons{
+display:flex;
+gap:15px;
+margin-top:20px;
+flex-wrap:wrap;
+}
+
+.btn-primary{
+
+background:#2563eb;
+color:white;
+padding:14px 22px;
+border-radius:8px;
+font-weight:600;
+text-decoration:none;
+transition:0.3s;
+}
+
+.btn-primary:hover{
+background:#1d4ed8;
+}
+
+.btn-secondary{
+
+background:#16a34a;
+color:white;
+padding:14px 22px;
+border-radius:8px;
+font-weight:600;
+text-decoration:none;
+transition:0.3s;
+}
+
+.btn-secondary:hover{
+background:#15803d;
+  }
+
   
