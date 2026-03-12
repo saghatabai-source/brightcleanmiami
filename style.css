@@ -495,5 +495,21 @@ margin-right:8px;
 color:#444;
 
 }
+
+.trust-container{
+
+padding-left:0;
+
+margin-left:0;
+
   }
 
+.trust-container li{
+
+list-style:none;
+
+margin-left:0;
+
+padding-left:0;
+
+}
