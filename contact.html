@@ -26,12 +26,42 @@ gtag('js',new Date());
 gtag('config','G-ZP5F1MCJRZ');
 </script>
 
+<!-- Local Business SEO Schema -->
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"LocalBusiness",
+"name":"Bright Clean Miami",
+"image":"https://brightcleanmiami.vercel.app/assets/miami-house-cleaning.jpg",
+"url":"https://brightcleanmiami.vercel.app",
+"telephone":"+13050000000",
+"address":{
+"@type":"PostalAddress",
+"addressLocality":"Miami",
+"addressRegion":"FL",
+"addressCountry":"US"
+},
+"areaServed":[
+"Miami",
+"Brickell",
+"Coral Gables",
+"Coconut Grove",
+"Miami Beach",
+"Kendall",
+"Doral"
+],
+"serviceType":"House Cleaning Service",
+"priceRange":"$$"
+}
+</script>
+  
 </head>
 
 <body>
 
 <header class="site-header">
 <div class="container header-container">
+
 <a href="/" class="logo">Bright Clean Miami</a>
 
 <nav class="main-nav">
@@ -44,6 +74,7 @@ gtag('config','G-ZP5F1MCJRZ');
 </nav>
 
 <button class="menu-toggle">☰</button>
+
 </div>
 </header>
 
@@ -51,13 +82,17 @@ gtag('config','G-ZP5F1MCJRZ');
 
 <section class="page-hero">
 <div class="container">
+
 <h1>Request Your Free Cleaning Quote</h1>
 <p>Professional residential cleaning services in Miami, Florida.</p>
+
 </div>
 </section>
 
 <section class="content-section">
 <div class="container contact-container">
+
+<!-- Contact Form -->
 
 <div class="contact-form">
 
@@ -66,10 +101,8 @@ gtag('config','G-ZP5F1MCJRZ');
 
 <form action="https://formspree.io/f/xlgwyjky" method="POST">
 
-<!-- Redirect after submit -->
 <input type="hidden" name="_next" value="https://brightcleanmiami.vercel.app/thank-you.html">
 
-<!-- Honeypot Anti-Spam -->
 <input type="text" name="company" style="display:none">
 
 <label>Full Name *</label>
@@ -114,9 +147,18 @@ gtag('config','G-ZP5F1MCJRZ');
 
 <button type="submit" class="hero-btn">Request Free Quote</button>
 
+<p style="font-size:12px;margin-top:10px;line-height:1.5;">
+By submitting this form you agree to our
+<a href="/terms-and-conditions.html">Terms & Conditions</a>
+and
+<a href="/privacy-policy.html">Privacy Policy</a>.
+</p>
+
 </form>
 
 </div>
+
+<!-- Contact Info -->
 
 <div class="contact-info">
 
@@ -133,13 +175,16 @@ gtag('config','G-ZP5F1MCJRZ');
 <p>Sunday: By Appointment</p>
 
 <div class="cta-box">
+
 <h3>Why Choose Bright Clean Miami?</h3>
+
 <ul>
 <li>Reliable & punctual service</li>
 <li>Experienced professionals</li>
 <li>Climate-aware cleaning solutions</li>
 <li>Flexible scheduling</li>
 </ul>
+
 </div>
 
 </div>
@@ -150,6 +195,7 @@ gtag('config','G-ZP5F1MCJRZ');
 </main>
 
 <footer class="site-footer">
+
 <div class="container footer-container">
 
 <div>
@@ -175,6 +221,7 @@ gtag('config','G-ZP5F1MCJRZ');
 <div class="copyright">
 © 2026 Bright Clean Miami. All rights reserved.
 </div>
+
 </footer>
 
 <script src="assets/js/main.js"></script>
