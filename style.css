@@ -460,11 +460,30 @@ color:#333;
 
 }
 
-.trust-container div{
+.trust-container{
 
-margin:5px 10px;
+max-width:1100px;
+
+margin:auto;
+
+display:flex;
+
+flex-direction:column;
+
+gap:6px;
+
+padding:20px;
 
   }
+
+  .trust-container div{
+
+font-weight:500;
+
+color:#333;
+
+  }
+  
 
 /* GOOGLE RATING */
 
