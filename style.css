@@ -1,114 +1,203 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
 body{
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto;
-  background:#f4f7fb;
-  color:#0f172a;
+font-family:"Inter",sans-serif;
+background:#0a0f16;
+color:#e6edf3;
+line-height:1.8;
+}
+
+/* NAV */
+
+.nav{
+position:sticky;
+top:0;
+background:#0a0f16;
+border-bottom:1px solid rgba(255,255,255,0.05);
+padding:18px 40px;
+z-index:1000;
+}
+
+.nav-inner{
+max-width:1200px;
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.nav-brand{
+font-size:20px;
+font-weight:600;
+letter-spacing:1px;
+}
+
+.nav-links a{
+margin-left:22px;
+font-size:14px;
+color:#9aa4b2;
+text-decoration:none;
+transition:.3s;
+}
+
+.nav-links a:hover{
+color:#ffffff;
 }
 
 /* HERO */
+
 .hero{
-  max-width:1200px;
-  margin:auto;
-  padding:80px 20px;
-  display:grid;
-  gap:40px;
+padding:140px 20px 120px;
+text-align:center;
+background:
+radial-gradient(circle at 20% 20%,rgba(88,166,255,0.18),transparent 60%),
+linear-gradient(180deg,#0a0f16,#101826);
 }
+
+.hero-inner{
+max-width:900px;
+margin:auto;
+}
+
+.brand-line{
+font-size:12px;
+letter-spacing:2px;
+text-transform:uppercase;
+color:#9aa4b2;
+margin-bottom:20px;
+}
+
 .hero h1{
-  font-size:36px;
-  font-weight:800;
+font-size:52px;
+font-weight:600;
+margin-bottom:20px;
 }
+
 .hero p{
-  font-size:16px;
-  color:#64748b;
-  margin-top:10px;
-}
-.hero img{
-  width:100%;
-  border-radius:16px;
-  box-shadow:0 20px 40px rgba(0,0,0,0.15);
+font-size:18px;
+color:#aab6c3;
 }
 
-/* BUTTONS */
-.btn{
-  padding:14px 22px;
-  border-radius:10px;
-  font-weight:600;
-  text-decoration:none;
-  display:inline-block;
-  margin-right:10px;
-  transition:0.3s;
-}
-.blue{
-  background:#2563eb;
-}
-.green{
-  background:#22c55e;
-}
-.btn:hover{
-  transform:translateY(-2px);
-  opacity:0.9;
+/* MAIN */
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:90px 24px;
 }
 
-/* SECTION */
 .section{
-  max-width:1200px;
-  margin:auto;
-  padding:70px 20px;
-}
-.section h2{
-  text-align:center;
-  font-size:26px;
-  margin-bottom:40px;
+margin-bottom:80px;
 }
 
-/* GRID */
-.grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:25px;
+h2{
+font-size:30px;
+margin-bottom:20px;
 }
 
-/* CARD */
+h3{
+font-size:20px;
+margin-bottom:10px;
+}
+
+p{
+font-size:16px;
+color:#b7c3d0;
+}
+
+/* CARDS */
+
+.card-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
 .card{
-  background:#fff;
-  padding:25px;
-  border-radius:14px;
-  box-shadow:0 10px 30px rgba(0,0,0,0.08);
-  transition:0.3s;
-}
-.card:hover{
-  transform:translateY(-5px);
-  box-shadow:0 20px 40px rgba(0,0,0,0.12);
+background:#111a24;
+padding:30px;
+border-radius:12px;
+border:1px solid rgba(255,255,255,0.05);
+transition:.3s;
 }
 
-/* ESTIMATE */
-.estimate{
-  background:#fff;
-  padding:30px;
-  border-radius:16px;
-  max-width:550px;
-  margin:auto;
-  text-align:center;
-  box-shadow:0 15px 40px rgba(0,0,0,0.1);
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 20px 40px rgba(0,0,0,0.4);
+border-color:#58a6ff;
 }
-.estimate input,.estimate select{
-  padding:12px;
-  margin:8px;
-  border:1px solid #e2e8f0;
-  border-radius:8px;
+
+/* CONTACT */
+
+.contact-email a{
+font-size:18px;
+color:#58a6ff;
+text-decoration:none;
+}
+
+.contact-email a:hover{
+text-decoration:underline;
 }
 
 /* FOOTER */
+
 .footer{
-  background:#0f172a;
-  color:#fff;
-  text-align:center;
-  padding:50px 20px;
+background:#0a0f16;
+border-top:1px solid rgba(255,255,255,0.05);
+padding:80px 20px;
 }
 
-/* DESKTOP */
-@media(min-width:768px){
-  .hero{
-    grid-template-columns:1fr 1fr;
-    align-items:center;
-  }
+.footer-container{
+max-width:1200px;
+margin:auto;
+display:flex;
+flex-wrap:wrap;
+gap:60px;
 }
+
+.footer-column{
+flex:1;
+min-width:260px;
+}
+
+.footer a{
+display:block;
+margin-bottom:6px;
+color:#9aa4b2;
+text-decoration:none;
+}
+
+.footer a:hover{
+color:#ffffff;
+}
+
+.footer-bottom{
+margin-top:60px;
+text-align:center;
+font-size:13px;
+color:#8a97a5;
+line-height:1.7;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.nav-links{
+display:none;
+}
+
+.hero h1{
+font-size:36px;
+}
+
+.container{
+padding:60px 20px;
+}
+
+                      }
