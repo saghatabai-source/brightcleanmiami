@@ -6,148 +6,126 @@
 <title>Bright Clean Miami</title>
 
 <style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f5f7fa;
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto;
+  background:#f5f7fb;color:#111
 }
 
 /* HEADER */
-.header {
-  background: #0f172a;
-  color: white;
-  padding: 15px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.header{
+  background:#0f172a;color:#fff;
+  padding:15px 20px;
+  display:flex;justify-content:space-between;align-items:center
 }
-
-.header h2 {
-  margin: 0;
+.logo{font-weight:700}
+.btn{
+  padding:10px 16px;border-radius:8px;
+  text-decoration:none;color:#fff;font-size:14px
 }
-
-.btn {
-  padding: 10px 15px;
-  border-radius: 8px;
-  text-decoration: none;
-  color: white;
-  margin-left: 10px;
-}
-
-.btn-blue { background: #2563eb; }
-.btn-green { background: #16a34a; }
+.blue{background:#2563eb}
+.green{background:#16a34a}
 
 /* HERO */
-.hero {
-  text-align: center;
-  padding: 60px 20px;
+.hero{
+  max-width:1100px;margin:auto;
+  padding:50px 20px;
+  display:grid;gap:30px
+}
+.hero h1{font-size:30px}
+.hero p{color:#555;margin-top:10px}
+.hero img{
+  width:100%;border-radius:12px;margin-top:20px
 }
 
-.hero h1 {
-  font-size: 30px;
+/* DESKTOP */
+@media(min-width:768px){
+  .hero{grid-template-columns:1fr 1fr;align-items:center}
 }
 
-.hero p {
-  max-width: 600px;
-  margin: 15px auto;
+/* SECTIONS */
+.section{
+  max-width:1100px;margin:auto;
+  padding:50px 20px
+}
+.section h2{margin-bottom:20px}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px
 }
 
-.hero img {
-  width: 100%;
-  max-width: 400px;
-  margin-top: 20px;
-  border-radius: 10px;
-}
-
-/* SERVICES */
-.section {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
-  gap: 15px;
-  margin-top: 20px;
-}
-
-.card {
-  background: white;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-/* TRUST */
-.trust {
-  margin-top: 20px;
+/* CARD */
+.card{
+  background:#fff;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08)
 }
 
 /* ESTIMATE */
-.estimate {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  max-width: 500px;
-  margin: auto;
+.estimate{
+  background:#fff;
+  padding:25px;
+  border-radius:12px;
+  max-width:500px;
+  margin:auto;
+  text-align:center;
+  box-shadow:0 10px 25px rgba(0,0,0,0.08)
 }
-
-input, select {
-  padding: 10px;
-  margin: 5px;
-  width: 120px;
+.estimate input,.estimate select{
+  padding:10px;margin:5px;
+  border:1px solid #ddd;border-radius:6px
 }
 
 /* FOOTER */
-.footer {
-  background: #0f172a;
-  color: white;
-  padding: 30px;
-  text-align: center;
-  margin-top: 40px;
+.footer{
+  background:#0f172a;
+  color:#fff;
+  text-align:center;
+  padding:40px;
+  margin-top:50px
 }
 </style>
 
 </head>
-
 <body>
 
 <!-- HEADER -->
 <div class="header">
-  <h2>Bright Clean Miami</h2>
+  <div class="logo">Bright Clean Miami</div>
   <div>
-    <a href="#" class="btn btn-blue">Free Quote</a>
-    <a href="tel:+13050000000" class="btn btn-green">Call Now</a>
+    <a class="btn blue">Free Quote</a>
+    <a class="btn green">Call Now</a>
   </div>
 </div>
 
-<section class="hero container">
-
-  <div class="hero-text">
+<!-- HERO -->
+<section class="hero">
+  <div>
     <h1>Professional House Cleaning Services in Miami</h1>
     <p>
       Reliable house cleaning services across Brickell, Coral Gables,
       Coconut Grove, Kendall and Miami Beach.
     </p>
 
-    <div class="hero-buttons">
-      <a href="#" class="btn btn-blue">Get Free Quote</a>
-      <a href="#" class="btn btn-green">Get Instant Estimate</a>
+    <div style="margin-top:20px">
+      <a class="btn blue">Get Free Quote</a>
+      <a class="btn green">Get Instant Estimate</a>
     </div>
   </div>
 
   <div>
-    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952" alt="Cleaning">
+    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952">
   </div>
-
 </section>
 
 <!-- SERVICES -->
 <section class="section">
   <h2>Our Cleaning Services</h2>
-
-  <div class="cards">
+  <div class="grid">
     <div class="card">House Cleaning Miami</div>
     <div class="card">Apartment Cleaning Miami</div>
     <div class="card">Deep Cleaning Miami</div>
@@ -155,61 +133,52 @@ input, select {
   </div>
 </section>
 
-<!-- WHY US -->
+<!-- WHY -->
 <section class="section">
   <h2>Why Choose Bright Clean Miami</h2>
-
-  <div class="cards">
+  <div class="grid">
     <div class="card">
-      <b>Professional Cleaners</b>
+      <strong>Professional Cleaners</strong>
       <p>Background-checked and experienced cleaners.</p>
     </div>
-
     <div class="card">
-      <b>Fast Booking</b>
+      <strong>Fast Booking</strong>
       <p>Book your cleaning in under 60 seconds.</p>
     </div>
-
     <div class="card">
-      <b>Affordable Prices</b>
+      <strong>Affordable Prices</strong>
       <p>No hidden fees. Transparent pricing.</p>
     </div>
   </div>
 </section>
 
-<!-- TRUST -->
+<!-- TESTIMONIAL -->
 <section class="section">
   <h2>Trusted by Miami Homeowners</h2>
-
-  <div class="cards">
-    <div class="card">"Absolutely amazing cleaning service." – Maria G.</div>
-    <div class="card">"Professional and very detailed." – David R.</div>
-    <div class="card">"Everything was spotless." – Jessica L.</div>
+  <div class="grid">
+    <div class="card">"Amazing cleaning service." – Maria</div>
+    <div class="card">"Very professional." – David</div>
+    <div class="card">"Everything spotless." – Jessica</div>
   </div>
 </section>
 
 <!-- ESTIMATE -->
 <section class="section">
-  <h2>Get Instant Cleaning Estimate</h2>
+  <h2 style="text-align:center">Get Instant Cleaning Estimate</h2>
 
   <div class="estimate">
-    <input type="number" placeholder="Home Size (sq ft)">
-    
+    <input placeholder="Home Size (sq ft)">
     <select>
       <option>Standard Cleaning</option>
       <option>Deep Cleaning</option>
-      <option>Move Out Cleaning</option>
     </select>
-
     <br>
-    <br>
-
-    <button class="btn btn-blue">Get Estimate</button>
+    <button class="btn blue">Get Estimate</button>
   </div>
 </section>
 
 <!-- AREAS -->
-<section class="section">
+<section class="section" style="text-align:center">
   <h2>Service Areas</h2>
   <p>Brickell • Coral Gables • Coconut Grove • Kendall • Miami Beach • Doral</p>
 </section>
@@ -222,4 +191,4 @@ input, select {
 </div>
 
 </body>
-</html>
+  </html>
