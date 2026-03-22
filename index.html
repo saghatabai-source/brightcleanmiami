@@ -257,7 +257,45 @@ Get Instant Estimate
 <option>Deep Cleaning</option>
 <option>Move Out Cleaning</option>
 
+<select>
+
+  <section id="estimate" class="estimate-section">
+
+<div class="container">
+
+<h2>Instant Cleaning Price Estimate</h2>
+
+<p>Enter your home size to get an estimated cleaning price.</p>
+
+<div class="estimate-box">
+
+<label>Home Size (sq ft)</label>
+
+<input type="number" id="homeSize" placeholder="Example: 1200">
+
+<label>Cleaning Type</label>
+
+<select id="cleanType">
+
+<option value="0.10">Standard Cleaning</option>
+
+<option value="0.15">Deep Cleaning</option>
+
+<option value="0.18">Move Out Cleaning</option>
+
 </select>
+
+<button onclick="calculatePrice()" class="btn-primary">
+Calculate Price
+</button>
+
+<h3 id="priceResult"></h3>
+
+</div>
+
+</div>
+
+  </section>
 
 <button type="submit">
 Get Estimate
@@ -415,5 +453,7 @@ Coral Gables, Coconut Grove, Kendall, Miami Beach, Doral and Edgewater.
 
 <a href="https://wa.me/13050000000" class="float-whatsapp">💬</a>
 
+<script src="//code.tidio.co/YOURCODE.js" async></script>
+  
 </body>
 </html>
