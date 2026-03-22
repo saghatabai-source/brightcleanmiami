@@ -310,4 +310,49 @@ justify-content:center;
 justify-content:center;
 }
 
-  }
+.estimate-section{
+
+background:#f8fafc;
+
+padding:80px 0;
+
+text-align:center;
+
+}
+
+.estimate-box{
+
+max-width:500px;
+
+margin:auto;
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.estimate-box input,
+.estimate-box select{
+
+padding:12px;
+
+border-radius:8px;
+
+border:1px solid #ddd;
+
+font-size:16px;
+
+}
+
+#priceResult{
+
+margin-top:20px;
+
+color:#16a34a;
+
+font-size:24px;
+
+}
